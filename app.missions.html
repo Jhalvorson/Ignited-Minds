@@ -1,0 +1,530 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="author" content="createdbycampfire.com">
+    <title>Ignited Minds</title>
+ 
+      <!-- Stylesheets -->
+  
+        <link rel="stylesheet" href="css/bootstrap.css">
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="css/app-styles.css">
+        <link rel="stylesheet" href="css/jasny-bootstrap.min.css">
+        <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+    
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+       <script src="js/pace.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+     <script src="js/jasny-bootstrap.min.js"></script>
+      
+      
+        <script>$(document).delegate('*[data-toggle="lightbox"]', 'click', function(event) {
+    event.preventDefault();
+    $(this).ekkoLightbox();
+});</script>
+        
+      
+    </head>
+    
+    <body class="app">
+        
+        
+             <!-- Fixed navbar -->
+    <nav class="navbar navbar-default navbar-fixed-top">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="offcanvas" data-target="#myNavmenu" data-canvas="body" style="float:left">
+          <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+
+          </button>
+        </div>
+          
+          
+          <div class="btn-group settings-buttons">
+  <button type="button" class="btn btn-settings dropdown-toggle" data-toggle="dropdown" aria-expanded="false">
+    <i class="fa fa-cog"></i>
+  </button>
+  <ul class="dropdown-menu dropdown-menu-right" role="menu" style="margin-left:-30px;">
+    <li><a href="app.settings.html">Settings</a></li>
+    <li><a href="#">Log Out</a></li>
+   
+  </ul>
+</div>
+       
+      </div>
+    </nav>
+        
+        
+        <nav id="myNavmenu" class="navmenu navmenu-default navmenu-fixed-left offcanvas" role="navigation">
+           
+ <ul class="nav navbar-nav">
+                     <li><a href="app.index.html"><img src=/img/logo.png></a></li>
+            <li class=""><a href="#"><i class="icon-person"></i> <span class="sr-only">(current)</span></a></li> <li><a href="app.inspiration.html" ><i class="icon-lightbulb"></i></a></li>
+            <li><a href="app.events.html" ><i class="icon-calendar"></i></a></li>
+            <li><a href="#" ><i class="icon-pound"></i></a></li>
+              <li><a href="app.missions.html" ><i class="fa fa-rocket"></i></a></li>
+            <li><a href="app.discussions.html" ><i class="fa fa-comment-o"></i></a></li>
+         
+                <ul class="nav nav-sidebar-lower">
+                    <li>  <a href="app.profile.html"> <img src="/img/me.jpg"></a> </li></ul>
+              
+          </ul>
+        </nav>
+  
+      <div class="row">
+        <div class="col-sm-2 col-md-1 sidebar">
+          <ul class="nav nav-sidebar">
+              <li><a href="#"><img src=/img/logo.png></a></li>
+            <li class=""><a href="#" data-toggle="tooltip" class="tip-right" data-original-title="People" class="nav-tooltip"><i class="icon-person"></i> <span class="sr-only">(current)</span></a></li>
+              <li><a href="app.inspiration.html" data-toggle="tooltip" class="tip-right" data-original-title="Inspiration"><i class="icon-lightbulb"></i></a></li>
+            <li><a href="app.events.html" data-toggle="tooltip" class="tip-right" data-original-title="Events"><i class="icon-calendar"></i></a></li>
+            <li><a href="#" data-toggle="tooltip" class="tip-right" data-original-title="Funding"><i class="icon-pound"></i></a></li>
+               <li><a href="#" data-toggle="tooltip" class="tip-right" data-original-title="Funding"><i class="fa fa-rocket"></i></a></li>
+            <li><a href="app.discussions.html" data-toggle="tooltip" class="tip-right" data-original-title="Discussions"><i class="fa fa-comment-o"></i></a></li>
+          
+               <ul class="nav nav-sidebar-lower">
+                <li>  <a href="app.profile.html"> <img src="/img/me.jpg"></a> </li>
+            </ul>
+            
+            </ul>
+          </div>
+          
+          
+          
+          <div class="col-md-11 body-content missions-main">
+              <h3>Mission <span>(noun)</span></h3> 
+	           <ul>
+                   <li>An important assignment given to a person or group of people</li>
+                    <li>A strongly felt aim, ambition, or calling</li>
+              </ul>
+              <div class="col-md-6 event-search" style="postion:absolute;right:-15px; top:-120px;">
+    <div class="input-group">
+      <input type="text" class="form-control" placeholder="Search for Missions">
+      <span class="input-group-btn">
+        <button class="btn btn-default" type="button"><i class="fa fa-search"></i></button>
+      </span>
+    </div><!-- /input-group -->
+  </div><!-- /.col-lg-6 -->
+              
+             
+              
+            <!--  <p>The Ignited Minds community is truly a force for good. We're all here for similar reasons; to help, to inspire, to ultimately change the world. Missions allows our online community to have a real world impact through our various partners and sponsors. No matter how much or little you can contribute at the moment you will make a difference. You could provide photography, copy, run and event, build a website or an app, and all in the name of doing good for our communities. <br><br>Do what you do best Ignted Minds. Leave a massive a dent in the world.<br><br></p> -->
+              
+              
+          
+              <div class="mission-header col-md-12">
+                  
+                  <a class="featured-mission">Featured Mission</a>
+                  
+                  <a class="featured-mission-more">Learn More about our Featured Missions</a>
+                  
+                <div class="mission-header-content">
+                  
+                <h2>The Big Issue Edinburgh</h2>
+                  
+                    <p>The Big Issue is a magazine sold by homeless and long-term unemployed people. Vendors buy copies for £1.25 and sell for £2.50. They are working, not begging.</p>
+                    
+                    
+  <a href="app.example-mission.html" class="btn btn-mission-main">Learn More</a>
+                    
+                  </div>
+                  
+                
+                  
+              </div>
+              
+              <div class="row main-missions" style="">
+              
+              <div class="col-md-6">
+              
+                  <div class="sub-mission mission-one">
+                      
+                      <div class="sub-mission-content">
+                  
+                       <h2>Social Bite</h2>
+                          
+                          <p>Eat good. Do good.</p>
+                  
+                 <a class="btn btn-mission-main">Learn More</a>
+                          
+                      </div>
+                  
+                
+                  
+                  </div>
+              
+              </div>
+                  
+                  
+                   <div class="col-md-6">
+              
+                  <div class="sub-mission mission-one">
+                      
+                      <div class="sub-mission-content">
+                  
+                       <h2>Social Bite</h2>
+                          
+                          <p>Eat good. Do good.</p>
+                  
+                 <a class="btn btn-mission-main">Learn More</a>
+                          
+                      </div>
+                  
+                
+                  
+                  </div>
+              
+              </div>
+                  
+                 
+              
+              
+              </div>
+              
+              <div class="row p-missions">
+                  
+                  <div class="p-mission-intro">
+                  
+                  <h4>Private Missions</h4>
+                  
+                  <p>Connect with employees and supporters of your organisation through Private Missions, you can learn more <a href="#" target="_blank">here</a></p>
+                  
+                      <a href="#" class="btn btn-start-mission" data-toggle="modal" data-target="#missionModal">Start A Private Mission</a>
+                  </div>
+                  
+                  <div class="col-md-3">
+                  
+                      <div class="p-mission-single one">
+                      
+                          <div class="content">
+                          
+                              <h4>Campfire</h4>
+                              
+                              <a class="btn-learn btn">Learn More</a>
+                          
+                          </div>
+                          
+                      </div>
+                  
+                  </div>
+                  
+                   <div class="col-md-3">
+                  
+                      <div class="p-mission-single two">
+                          
+                      <div class="content">
+                          
+                              <h4>Campfire</h4>
+                              
+                              <a class="btn-learn btn">Learn More</a>
+                          
+                          </div>
+                          
+                      </div>
+                  
+                  </div>
+                  
+                   <div class="col-md-3">
+                  
+                      <div class="p-mission-single three">
+                          
+                          <div class="content">
+                          
+                              <h4>Campfire</h4>
+                              
+                              <a class="btn-learn btn">Learn More</a>
+                          
+                          </div>
+                      
+                          
+                      </div>
+                  
+                  </div>
+                  
+                   <div class="col-md-3">
+                  
+                      <div class="p-mission-single four">
+                          
+                          <div class="content">
+                          
+                              <h4>Campfire</h4>
+                              
+                              <a class="btn-learn btn">Learn More</a>
+                          
+                          </div>
+                      
+                          
+                      </div>
+                  
+                  </div>
+                  
+                    <div class="col-md-3">
+                  
+                      <div class="p-mission-single one">
+                      
+                          <div class="content">
+                          
+                              <h4>Campfire</h4>
+                              
+                              <a class="btn-learn btn">Learn More</a>
+                          
+                          </div>
+                          
+                      </div>
+                  
+                  </div>
+                  
+                   <div class="col-md-3">
+                  
+                      <div class="p-mission-single two">
+                          
+                      <div class="content">
+                          
+                              <h4>Campfire</h4>
+                              
+                              <a class="btn-learn btn">Learn More</a>
+                          
+                          </div>
+                          
+                      </div>
+                  
+                  </div>
+                  
+                   <div class="col-md-3">
+                  
+                      <div class="p-mission-single three">
+                          
+                          <div class="content">
+                          
+                              <h4>Campfire</h4>
+                              
+                              <a class="btn-learn btn">Learn More</a>
+                          
+                          </div>
+                      
+                          
+                      </div>
+                  
+                  </div>
+                  
+                   <div class="col-md-3">
+                  
+                      <div class="p-mission-single four">
+                          
+                          <div class="content">
+                          
+                              <h4>Campfire</h4>
+                              
+                              <a class="btn-learn btn">Learn More</a>
+                          
+                          </div>
+                      
+                          
+                      </div>
+                  
+                  </div>
+                  
+                  
+                  </div>
+          </div>
+        
+           
+        </div>
+        <footer style="margin-left:70px;">
+        <div class="col-md-4">
+            <h3 style="padding-left:30px;">© Ignited Minds 2015</h3>
+            <h4>Brought to you by <a href="#">Campfire</a></h4>
+          </div>
+            <div class="col-md-8">
+            <ul>
+            
+                <li><a href="about.html">About</a></li>
+                <li>Blog</li>
+                <li>Press</li>
+                <li>Login</li>
+                <li>Signup</li>
+                
+            </ul>
+        </div>
+        </footer>        
+        
+        
+        
+        
+
+
+<!-- Start A Mission Modal -->
+<div class="modal mission-modal fade" id="missionModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="mission-modal-header ">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h4 class="modal-title" id="myModalLabel">Start Your Own Mission</h4>
+      </div>
+      <div class="modal-body">
+        <p style="padding:16px 0;">So, tell us about your mission...</p>
+          
+          <form>
+          
+          <input class="form-control" placeholder="Who are you running the mission for? Type it here">
+          
+          <div class="form-group">
+  <div class="col-md-12"><p style="padding:20px 0 5px 0;">Are you a representative from the organisation the mission is for?</p></div>
+  <div class="col-md-8" style="padding-bottom:20px;">
+  <div class="radio">
+    <label for="radios-0">
+      <input type="radio" name="radios" id="radios-0" value="1" checked="checked">
+      Yes
+    </label>
+	</div>
+  <div class="radio">
+    <label for="radios-1">
+      <input type="radio" name="radios" id="radios-1" value="2">
+      No
+    </label>
+	</div>
+  </div>
+</div>
+              
+              <textarea class="form-control" placeholder="Tell us breifly about your mission. What would you like to achieve?"></textarea>
+              
+              <p style="padding:20px 0;">Now we're going to set 3 key objectives and achievable dates, don't worry if you haven't thought about these yet, you can add them later.</p>
+              
+              <input class="form-control" placeholder="Objective One">
+              
+              <input class="form-control" placeholder="Objective Two">
+              
+              <input class="form-control" placeholder="Objective Three">
+              
+              <p>Who would you like to add to your mission?</p>
+              
+              <input type="search" class="form-control" placeholder="Search for names">
+              
+              <div class="modal-team">
+              
+              <img src="/img/douglas-profile.JPG"><img src="/img/douglas-profile.JPG"><img src="/img/douglas-profile.JPG"><img src="/img/douglas-profile.JPG"><img src="/img/douglas-profile.JPG"><img src="/img/douglas-profile.JPG">
+              </div>
+              
+ </form>
+        </div>
+      <div class="modal-footer">
+        
+        <button type="button" class="btn btn-signup" style="display:block;margin-left:auto;margin-right:auto;">Start Mission</button>
+      </div>
+    </div>
+  </div>
+</div>
+        
+        
+        
+         <script>$(".get-started-btn, .btn-signup").click(function (e) {
+    $('.header-content').toggleClass('up');
+    e.stopPropagation()
+});</script>
+        
+          <script>$('.btn-signup').click(function(e){    
+    $('#buttons').fadeOut('slow', function(){
+        $('#form-one').fadeIn('slow');
+    });
+});</script>
+        
+         <script>$('.btn-signup').click(function(e){    
+    $('.btn-signup').fadeOut('slow', function(){
+        $('#form-one').fadeIn('slow');
+    });
+});</script>
+        
+        
+        
+        <script>$('.get-started-btn').click(function(e){    
+    $('#buttons').fadeOut('slow', function(){
+        $('#form-one').fadeIn('slow');
+    });
+});</script>
+        
+         <script>$('.get-started-btn').click(function(e){    
+    $('.btn-signup').fadeOut('slow', function(){
+        $('#form-one').fadeIn('slow');
+    });
+});</script>
+        
+        
+        
+         <script>$('.btn-begin').click(function(e){    
+    $('#form-one').fadeOut('slow', function(){
+        $('#form-two').fadeIn('slow');
+    });
+});</script>
+        
+         <script>$('.btn-last-part').click(function(e){    
+    $('#form-two').fadeOut('slow', function(){
+        $('#form-three').fadeIn('slow');
+    });
+});</script>
+        
+       
+        
+      <!--   <script>$('.btn-igniteme').click(function(e){    
+    $('#form-three').fadeOut('slow', function(){
+        $('#welcome').fadeIn('slow');
+    });
+});</script> -->
+        
+        <script>     function readURL(input) {
+            if (input.files && input.files[0]) {
+                var reader = new FileReader();
+
+                reader.onload = function (e) {
+                    $('#blah')
+                        .attr('src', e.target.result)
+                        .width(80)
+                        .height(80);
+                        
+                };
+
+                reader.readAsDataURL(input.files[0]);
+            }
+        }</script>
+        
+        
+        <script type="text/javascript">
+$(document).ready(function(){
+    $(".tip-top").tooltip({
+        placement : 'top'
+    });
+    $(".tip-right").tooltip({
+        placement : 'right'
+    });
+    $(".tip-bottom").tooltip({
+        placement : 'bottom'
+    });
+    $(".tip-left").tooltip({
+        placement : 'left'
+    });
+});
+</script>
+        
+  
+         <script>$(".btn-hire").click(function (e) {
+    $('.hire-me-overlay').toggleClass('visible');
+    e.stopPropagation()
+});</script>
+        
+        <script>  $(document).ready(function () {
+			  $(".featured-mission").on("hover", function () {
+				    $(this).toggleClass("active");
+			  });
+		});</script>
+        
+           <script>$(".featured-mission").click(function (e) {
+    $('.featured-mission-more').toggleClass('visible');
+    e.stopPropagation()
+});</script>
+     
+        
+    </body>
+</html>

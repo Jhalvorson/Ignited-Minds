@@ -1,0 +1,477 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="author" content="createdbycampfire.com">
+    <title>Ignited Minds</title>
+ 
+      <!-- Stylesheets -->
+  
+        <link rel="stylesheet" href="css/bootstrap.css">
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="css/app-styles.css">
+        <link rel="stylesheet" href="css/YTPlayer.css">
+        <link rel="stylesheet" href="css/jasny-bootstrap.css">
+        <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+    
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+        <script src="js/pace.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+        <script src="js/jasny-bootstrap.min.js"></script>
+
+    </head>
+    
+    <body class="app">
+        
+         <!-- Fixed navbar -->
+    <nav class="navbar navbar-default navbar-fixed-top">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="offcanvas" data-target="#myNavmenu" data-canvas="body" style="float:left">
+          <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+
+          </button>
+        </div>
+          
+          
+          <div class="btn-group settings-buttons">
+  <button type="button" class="btn btn-settings dropdown-toggle" data-toggle="dropdown" aria-expanded="false">
+    <i class="fa fa-cog"></i>
+  </button>
+  <ul class="dropdown-menu dropdown-menu-right" role="menu" style="margin-left:-30px;">
+    <li><a href="app.settings.html">Settings</a></li>
+    <li><a href="#">Log Out</a></li>
+   
+  </ul>
+</div>
+       
+      </div>
+    </nav>
+        
+        
+        <nav id="myNavmenu" class="navmenu navmenu-default navmenu-fixed-left offcanvas" role="navigation">
+           
+ <ul class="nav navbar-nav">
+                     <li><a href="app.index.html"><img src=/img/logo.png></a></li>
+            <li class=""><a href="#"><i class="icon-person"></i> <span class="sr-only">(current)</span></a></li> <li><a href="app.inspiration.html" ><i class="icon-lightbulb"></i></a></li>
+            <li><a href="app.events.html" ><i class="icon-calendar"></i></a></li>
+            <li><a href="#" ><i class="icon-pound"></i></a></li>
+              <li><a href="app.missions.html" ><i class="fa fa-rocket"></i></a></li>
+            <li><a href="app.discussions.html" ><i class="fa fa-comment-o"></i></a></li>
+         
+                <ul class="nav nav-sidebar-lower">
+                    <li>  <a href="app.profile.html"> <img src="/img/me.jpg"></a> </li></ul>
+              
+          </ul>
+        </nav>
+       
+        
+  
+      <div class="row">
+        <div class="col-sm-2 col-md-1 sidebar">
+          <ul class="nav nav-sidebar">
+              <li><a href="app.index.html"><img src=/img/logo.png></a></li>
+            <li class=""><a href="app.people.html" data-toggle="tooltip" class="tip-right" data-original-title="People" class="nav-tooltip"><i class="icon-person"></i> <span class="sr-only">(current)</span></a></li> <li><a href="app.inspiration.html" data-toggle="tooltip" class="tip-right" data-original-title="Inspiration"><i class="icon-lightbulb"></i></a></li>
+            <li><a href="app.events.html" data-toggle="tooltip" class="tip-right" data-original-title="Events"><i class="icon-calendar"></i></a></li>
+            <li><a href="app.funding.html" data-toggle="tooltip" class="tip-right" data-original-title="Funding"><i class="icon-pound"></i></a></li>
+              <li><a href="app.missions.html" data-toggle="tooltip" class="tip-right" data-original-title="Missions"><i class="fa fa-rocket"></i></a></li>
+            <li><a href="app.discussions.html" data-toggle="tooltip" class="tip-right" data-original-title="Discussions"><i class="fa fa-comment-o"></i></a></li>
+         
+                <ul class="nav nav-sidebar-lower">
+                <li>  <a href="app.profile.html"> <img src="/img/me.jpg"></a> </li>
+            </ul>
+            
+            </ul>
+            
+          
+            
+          </div>
+          
+          <div class="col-md-11 body-content">
+          
+              <div class="profile-header">
+                  
+                <div class="hire-me-overlay">
+                  
+                    <form class="form-horizontal">
+<fieldset>
+
+<!-- Text input-->
+<div class="form-group" >
+
+    <div class="col-md-6">
+    
+  <input id="textinput" name="textinput" type="text" placeholder="Name" class="form-control input-md">
+        
+    </div>
+    
+    <div class="col-md-6">
+    
+  <input id="textinput" name="textinput" type="text" placeholder="Email Address" class="form-control input-md">
+        
+    </div>
+
+  </div>
+
+
+
+<!-- Textarea -->
+<div class="form-group">
+ 
+  <div class="col-md-12">                     
+    <textarea class="form-control" id="textarea" name="textarea">Tell me about the project/job</textarea>
+  </div>
+</div>
+
+<!-- Button -->
+<div class="form-group">
+  <label class="col-md-4 control-label" for="singlebutton"></label>
+  <div class="col-md-4">
+    <button id="singlebutton" name="singlebutton" class="btn btn-hire-send">Hire Me</button>
+  </div>
+</div>
+
+</fieldset>
+</form>
+
+                  
+                  </div>      
+            <!-- Single button -->
+<div class="btn-group settings-buttons settings-main">
+  <button type="button" class="btn btn-settings dropdown-toggle" data-toggle="dropdown" aria-expanded="false">
+    <i class="fa fa-cog"></i>
+  </button>
+  <ul class="dropdown-menu" role="menu" style="margin-left:-30px;">
+    <li><a href="app.settings.html">Settings</a></li>
+    <li><a href="#">Log Out</a></li>
+   
+  </ul>
+</div>
+       
+                  <button class="btn btn-hire">
+                   
+                     <span class="hire"> Hire Me </span >
+                  </button>
+                  
+                  <img src="img/me.jpg" class="profile-avatar">
+                  
+                  <h3>Jamie Halvorson</h3>
+              
+                  <p>UI/Web Designer, Film Maker, Co-Founder of Campfire &amp; Ignited Minds, Part-time Investor</p>
+                  
+                  <div class="social">
+                  
+                      <i class="fa fa-instagram"></i>
+                      <i class="fa fa-twitter"></i>
+                      <i class="fa fa-dribbble"></i>
+                  
+                  </div>
+                  
+              </div>
+              
+              <div class="profile-lower">
+              
+              <div class="col-md-6 events">
+    
+                  <h3>Events that Jamie is interested in</h3>
+                  
+                  <div class="event">
+                  
+                      <h4>Campfire Office Launch</h4>
+                      
+                      <p class="date">1st July 2015</p>
+                      
+                      <div class="with-others">
+                      
+                          <img src="img/me.jpg">
+                          
+                          <img src="img/me.jpg">
+                          
+                          <img src="img/me.jpg">
+                          
+                          <img src="img/me.jpg">
+                          
+                          <p> and 29 others are also going</p>
+                      
+                      </div>
+                  
+                  </div>
+                  
+                  
+                   <div class="event">
+                  
+                      <h4>Campfire Office Launch</h4>
+                      
+                      <p class="date">1st July 2015</p>
+                      
+                      <div class="with-others">
+                      
+                          <img src="img/me.jpg">
+                          
+                          <img src="img/me.jpg">
+                          
+                          <img src="img/me.jpg">
+                          
+                          <img src="img/me.jpg">
+                          
+                          <p> and 29 others are also going</p>
+                      
+                      </div>
+                  
+                  </div>
+                  
+                   <div class="event">
+                  
+                      <h4>Campfire Office Launch</h4>
+                      
+                      <p class="date">1st July 2015</p>
+                      
+                      <div class="with-others">
+                      
+                          <img src="img/me.jpg">
+                          
+                          <img src="img/me.jpg">
+                          
+                          <img src="img/me.jpg">
+                          
+                          <img src="img/me.jpg">
+                          
+                          <p> and 29 others are also going</p>
+                      
+                      </div>
+                  
+                  </div>
+              
+              </div>
+                  
+                  
+                  <div class="col-md-6 ideas">
+                  
+                      <div class="idea">
+                      
+                          <p>Jamie runs two organisations - Campfire and Ignitd Minds.</p>
+                          
+                          <h5>Ignited Minds</h5>
+                          
+                          <p class="idea-explain">incididunt ubi velit eu summis probant veniam distinguantur ullamco despicationes non possumus vidisse efflorescere fore efflorescere iis qui aut consectetur</p>
+                          
+                          <a class="btn btn-idea">Visit Ignited Minds</a>
+                          
+                          
+                           
+                          <h5>Campfire</h5>
+                          
+                          <p class="idea-explain">incididunt ubi velit eu summis probant veniam distinguantur ullamco despicationes non possumus vidisse efflorescere fore efflorescere iis qui aut consectetur</p>
+                          
+                          <a class="btn btn-idea">Visit Ignited Minds</a>
+                      
+                      </div>
+                  
+                  </div>
+                
+                  
+                   <div class="col-md-12 missions">
+              
+                <div class="mission-main">
+                
+                    <p>Missions allow our community to have a real-life impact on their communities. Jamie's part of the following missions:</p>
+                    
+                    <div class="col-md-4">
+                    
+                    <div class="im-mission-one">
+                        
+                        <div class="mission-header-profile"> <span>Private Mission</span></div>
+                        
+                        <div class="mission-body">
+                            
+                           
+                        
+                            <h4>Campfire</h4>
+                            
+                            <p>et imitarentur ut quorum tractavissent cernantur illum o fabulas transferrem vidisse nam se instituendarum varias</p>
+                            
+                            <a class="btn-mission" href="app.example-mission.html">Learn More</a>
+                        
+                        </div>
+                    
+                        </div></div>
+                    
+                      <div class="col-md-4">
+                    
+                    <div class="im-mission-one">
+                        
+                        <div class="mission-header-profile"></div>
+                        
+                        <div class="mission-body">
+                        
+                            <h4>The Big Issue</h4>
+                            
+                            <p>et imitarentur ut quorum tractavissent cernantur illum o fabulas transferrem vidisse nam se instituendarum varias</p>
+                            
+                            <a class="btn-mission" href="app.example-mission.html">Learn More</a>
+                        
+                        </div>
+                    
+                        </div></div>
+                    
+                    
+                     <div class="col-md-4">
+                    
+                    <div class="im-mission-one">
+                        
+                        <div class="mission-header-profile"></div>
+                        
+                        <div class="mission-body">
+                        
+                            <h4>The Big Issue</h4>
+                            
+                            <p>et imitarentur ut quorum tractavissent cernantur illum o fabulas transferrem vidisse nam se instituendarum varias</p>
+                            
+                            <a class="btn-mission" href="app.example-mission.html">Learn More</a>
+                        
+                        </div>
+                    
+                        </div></div>
+                  
+                </div>
+              
+              </div>
+                  
+              </div>
+              
+              
+             
+          
+          </div>
+            
+        </div> 
+        <footer style="margin-left:70px;">
+        <div class="col-md-4">
+            <h3 style="padding-left:30px;">© Ignited Minds 2015</h3>
+            <h4>Brought to you by <a href="#">Campfire</a></h4>
+          </div>
+            <div class="col-md-8">
+            <ul>
+            
+                <li><a href="about.html">About</a></li>
+                <li>Blog</li>
+                <li>Press</li>
+                <li>Login</li>
+                <li>Signup</li>
+                
+            </ul>
+        </div>
+        </footer>        
+        
+        
+         <script>$(".get-started-btn, .btn-signup").click(function (e) {
+    $('.header-content').toggleClass('up');
+    e.stopPropagation()
+});</script>
+        
+          <script>$('.btn-signup').click(function(e){    
+    $('#buttons').fadeOut('slow', function(){
+        $('#form-one').fadeIn('slow');
+    });
+});</script>
+        
+         <script>$('.btn-signup').click(function(e){    
+    $('.btn-signup').fadeOut('slow', function(){
+        $('#form-one').fadeIn('slow');
+    });
+});</script>
+        
+        
+        
+        <script>$('.get-started-btn').click(function(e){    
+    $('#buttons').fadeOut('slow', function(){
+        $('#form-one').fadeIn('slow');
+    });
+});</script>
+        
+         <script>$('.get-started-btn').click(function(e){    
+    $('.btn-signup').fadeOut('slow', function(){
+        $('#form-one').fadeIn('slow');
+    });
+});</script>
+        
+        
+        
+         <script>$('.btn-begin').click(function(e){    
+    $('#form-one').fadeOut('slow', function(){
+        $('#form-two').fadeIn('slow');
+    });
+});</script>
+        
+         <script>$('.btn-last-part').click(function(e){    
+    $('#form-two').fadeOut('slow', function(){
+        $('#form-three').fadeIn('slow');
+    });
+});</script>
+        
+       
+        
+      <!--   <script>$('.btn-igniteme').click(function(e){    
+    $('#form-three').fadeOut('slow', function(){
+        $('#welcome').fadeIn('slow');
+    });
+});</script> -->
+        
+        <script>     function readURL(input) {
+            if (input.files && input.files[0]) {
+                var reader = new FileReader();
+
+                reader.onload = function (e) {
+                    $('#blah')
+                        .attr('src', e.target.result)
+                        .width(80)
+                        .height(80);
+                        
+                };
+
+                reader.readAsDataURL(input.files[0]);
+            }
+        }</script>
+        
+        
+        <script type="text/javascript">
+$(document).ready(function(){
+    $(".tip-top").tooltip({
+        placement : 'top'
+    });
+    $(".tip-right").tooltip({
+        placement : 'right'
+    });
+    $(".tip-bottom").tooltip({
+        placement : 'bottom'
+    });
+    $(".tip-left").tooltip({
+        placement : 'left'
+    });
+});
+</script>
+        
+  
+         <script>$(".btn-hire").click(function (e) {
+    $('.hire-me-overlay').toggleClass('visible');
+    e.stopPropagation()
+});</script>
+        
+        <script>  $(document).ready(function () {
+			  $(".btn-hire").on("click", function () {
+				    $(this).toggleClass("active");
+			  });
+		});</script>
+        
+          <script>$(document).ready(function () {
+			  $(".navbar-toggle").on("click", function () {
+				    $(this).toggleClass("active");
+			  });
+		});</script>
+     
+        
+    </body>
+</html>

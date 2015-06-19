@@ -1,0 +1,726 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="author" content="createdbycampfire.com">
+    <title>Ignited Minds</title>
+ 
+      <!-- Stylesheets -->
+  
+        <link rel="stylesheet" href="css/bootstrap.css">
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="css/YTPlayer.css">
+        
+        <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+    
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+        <script src="js/pace.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+        <script src="js/jquery.mb.YTPlayer.min.js"></script>
+        <script src="js/ekko-lightbox.min.js"></script>
+        <script src="js/salvattore.min.js"></script>
+      
+       <script> 
+          
+       $(document).ready(function () {
+
+    $(".player").mb_YTPlayer();
+
+});
+        </script>
+      
+      
+      <script type="text/javascript">
+    function readURL(input) {
+        if (input.files && input.files[0]) {
+            var reader = new FileReader();
+
+            reader.onload = function (e) {
+                $('#objectID').css('background', 'transparent url('+e.target.result +') left top no-repeat');
+            }
+
+            reader.readAsDataURL(input.files[0]);
+        }
+    }
+</script>
+      
+        <script>$(document).delegate('*[data-toggle="lightbox"]', 'click', function(event) {
+    event.preventDefault();
+    $(this).ekkoLightbox();
+});</script>
+        
+      
+    </head>
+    
+    <body>
+        
+          <!-- Fixed navbar -->
+    <nav class="navbar navbar-default navbar-static-top">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#"><img src="img/logo.png"></a>
+        </div>
+        <div id="navbar" class="navbar-collapse collapse">
+        
+          <ul class="nav navbar-nav navbar-right">
+            <li><a href="about.html">About</a></li>
+            <li><a href="blog.html">Blog</a></li>
+            <li><a href="">Press</a></li>
+            <li><a href="login.html">Login</a></li>
+            <li><a href="#" class="btn btn-signup">Signup</a> </li>
+          </ul>
+        </div><!--/.nav-collapse -->
+      </div>
+    </nav>
+    
+    <header class="header-home">
+        
+            <section class="content-section video-section">
+        
+                <div class="pattern-overlay">
+      
+                    <!--<a id="bgndVideo" class="player" data-property="{videoURL:'https://www.youtube.com/watch?v=Y7JNyiRhv-c',containment:'.video-section', quality:'high', autoPlay:true, mute:true, opacity:1}">bg</a> -->
+                    
+                    <div class="header-content">
+                        
+        <h1>Turn your burning ideas into a reality</h1>
+      
+        
+        <div id="buttons">
+            
+              
+        <a class="play-movie btn" href="http://player.vimeo.com/video/73622319" data-toggle="lightbox"><i class="fa fa-play"></i>Play Movie</a>
+        
+         <a class="get-started-btn btn btn-desktop" href="#">Get Started</a>
+            
+             <a class="get-started-btn btn btn-mobile" href="mobile-signup.html">Get Started</a>
+        
+        <p>It's free. Forever.</p>
+            
+        </div>
+        
+        <div id="forms">
+        
+            
+            <form class="form-horizontal">
+<fieldset>
+<div id="form-one">
+
+<!-- Text input-->
+<div class="form-group">
+   <div class="col-md-6">
+  <input id="textinput" name="textinput" type="text" placeholder="First Name" class="form-control input-md">
+    </div>
+    <div class="col-md-6">
+     <input id="textinput" name="textinput" type="text" placeholder="Last Name" class="form-control input-md">
+</div>
+</div>
+
+
+<!-- Text input-->
+<div class="form-group">
+  <div class="col-md-12">
+  <input id="textinput" name="textinput" type="text" placeholder="Email Address" class="form-control input-md">
+    </div>
+ 
+</div>
+    
+    <div class="form-group">
+    
+        <div class="col-md-3 gender">
+        
+        <img src="/img/woman.png" class="img-responsive" style="margin-top:-6px;">
+            
+            <h3>Or</h3>
+            
+        <img src="/img/man.png" class="img-responsive" style="position:absolute;margin-top:-6px;">
+            
+        </div>
+        
+        <div class="col-md-9 dob">
+        
+            <div class="col-md-3">
+            
+            <h3>Birthday</h3>
+                
+            </div>
+            
+            <div class="col-md-2">
+            
+                 <input id="textinput" name="textinput" type="text" placeholder="01" class="form-control input-md">
+                
+            </div>
+            
+            <div class="col-md-2">
+            
+                 <input id="textinput" name="textinput" type="text" placeholder="placeholder" class="form-control input-md">
+                
+            </div>
+            
+            <div class="col-md-5">
+            
+                 <input id="textinput" name="textinput" type="text" placeholder="placeholder" class="form-control input-md">
+                
+            </div>
+        
+        </div>
+    
+    </div>
+    <div class="form-group" style="margin-top:-7px;margin-bottom:27px;">
+   <div class="col-md-6">
+  <input id="textinput" name="textinput" type="password" placeholder="Password" class="form-control input-md">
+    </div>
+    <div class="col-md-6">
+     <input id="textinput" name="textinput" type="password" placeholder="Confirm Password" class="form-control input-md">
+</div>
+</div>
+    
+    <div id="btn-two">
+    
+    <a class="btn btn-begin">2 More Minutes</a>
+
+        </div>
+        </div>
+    
+    
+    <div id="form-two">
+    
+    <div class="form-group">
+
+  <div class="col-md-12">
+      
+      <span class="image-container">
+  
+    <img id="blah" src="#" alt="your image"/> 
+          <!--<div id="blah" class="image" style="background-image:url('');"></div>-->
+          
+      </span>
+       <span class="btn btn-default btn-file">
+    Upload Image <input type="file" onchange="readURL(this);" >   
+</span>
+      
+
+  </div>
+</div>
+
+<!-- Select Basic -->
+<div class="form-group">
+ <div class="col-md-4"><h3>Your Nearest City</h3></div>
+  <div class="col-md-8">
+    <select id="selectbasic" name="selectbasic" class="form-control">
+        <option value="1">Edinburgh</option>
+        <option value="2">Glasgow</option>
+        <option value="2">Aberdeen</option>
+    </select>
+  </div>
+</div>
+
+    
+    
+     <div id="btn-three">
+    
+    <a class="btn btn-begin btn-last-part">Last Part</a>
+
+        </div>
+    
+    </div>
+    
+    
+    
+    <div id="form-three">
+    
+        <h2>Your Skills</h2>
+    
+       <button type="button" class="btn btn-skill" data-toggle="button" aria-pressed="false" autocomplete="off">
+  Accounting
+</button>
+        
+          <button type="button" class="btn btn-skill" data-toggle="button" aria-pressed="false" autocomplete="off">
+ Legal
+</button>
+        
+          <button type="button" class="btn btn-skill" data-toggle="button" aria-pressed="false" autocomplete="off">
+  Admin
+</button>
+        
+          <button type="button" class="btn btn-skill" data-toggle="button" aria-pressed="false" autocomplete="off">
+  Project Management
+</button>
+        
+          <button type="button" class="btn btn-skill" data-toggle="button" aria-pressed="false" autocomplete="off">
+  Web Design
+</button>
+        
+          <button type="button" class="btn btn-skill" data-toggle="button" aria-pressed="false" autocomplete="off">
+  Web Development
+</button>
+        
+          <button type="button" class="btn btn-skill" data-toggle="button" aria-pressed="false" autocomplete="off">
+  Event Management
+</button>
+        
+          <button type="button" class="btn btn-skill" data-toggle="button" aria-pressed="false" autocomplete="off">
+  Marketing
+</button>
+          <button type="button" class="btn btn-skill" data-toggle="button" aria-pressed="false" autocomplete="off">
+  Coms and PR
+</button>
+        
+          <button type="button" class="btn btn-skill" data-toggle="button" aria-pressed="false" autocomplete="off">
+  Manufacturing
+</button>
+          <button type="button" class="btn btn-skill" data-toggle="button" aria-pressed="false" autocomplete="off">
+  Programming
+</button>
+        
+          <button type="button" class="btn btn-skill" data-toggle="button" aria-pressed="false" autocomplete="off">
+ Film and Photos
+</button>
+        
+        <div id="btn-four" style="margin-top:30px;">
+    
+    <a class="btn btn-igniteme btn-igniteme" href="app.profile.html">Ignite Me <i class="fa fa-rocket" style="padding-left:6px;"></i></a>
+
+        </div>
+    
+    </div>
+    
+      <div id="welcome">
+    
+          <div class="welcome">
+          
+              <h2>Welcome to Jamie!</h2>
+              
+              <p>We hope that you love Ignited Minds as much as the rest of our community do! If you have any questions you can hit us up on Twitter at <a href="#">@BeIgnited</a><br><br>Keep it kindled,<br> Lewis and Jamie</p>
+              
+             
+              
+          </div>
+    
+    </div>
+    
+    
+</fieldset>
+</form>
+
+            
+                        </div></div>
+                </div></section>
+        
+    </header>
+        
+        
+        <div class="main-container live-example">
+        
+            <div class="row">
+        
+            <div class="col-md-2">
+            
+          <div class="stop"> <a id="inspiration-btn"> <i class="icon-lightbulb"></i> </a></div>
+               <i class="icon-calendar"></i>
+            <i class="icon-pound"></i>
+            <i class="icon-person"></i>
+            <a id="missions-btn" >  <i class="fa fa-rocket"></i> </a>
+            <a id="discussion-btn" >  <i class="fa fa-comment-o"></i> </a>
+            
+            </div>
+                
+            <div class="col-md-10">
+                
+                
+                <div class="inspiration" id="inspiration">
+                    
+                  
+                
+                <div class="col-md-4">
+                
+                    <div class="inspiration-header i-header-one">
+                    </div>
+                    
+                    <div class="inspiration-body">
+                    <h4>Alexandria's miracle</h4>
+
+In the wake of political turmoil and civil disruption in Egypt, it can be difficult to get our minds off the frequent grim and violent news.
+                        
+                        <a class="btn btn-inspiration">Watch Film</a>
+                    
+                    </div>
+                    
+                </div>
+                    
+                  <div class="col-md-4">
+                
+                    <div class="inspiration-header i-header-two">
+                    </div>
+                    
+                    <div class="inspiration-body">
+                    <h4>Alexandria's miracle</h4>
+
+In the wake of political turmoil and civil disruption in Egypt, it can be difficult to get our minds off the frequent grim and violent news.
+                        
+                        <a class="btn btn-inspiration">Watch Film</a>
+                    
+                    </div>
+                    
+                </div>
+                    
+                      <div class="col-md-4">
+                
+                    <div class="inspiration-header i-header-three">
+                    </div>
+                    
+                    <div class="inspiration-body">
+                    <h4>Alexandria's miracle</h4>
+
+In the wake of political turmoil and civil disruption in Egypt, it can be difficult to get our minds off the frequent grim and violent news.
+                        
+                        <a class="btn btn-inspiration">Watch Film</a>
+                    
+                    </div>
+                    
+                </div>
+                    
+                     <div class="col-md-4">
+                
+                    <div class="inspiration-header i-header-one">
+                    </div>
+                    
+                    <div class="inspiration-body">
+                     <h4>Alexandria's miracle</h4>
+
+In the wake of political turmoil and civil disruption in Egypt, it can be difficult to get our minds off the frequent grim and violent news.
+                        
+                        <a class="btn btn-inspiration">Watch Film</a>
+                    
+                    </div>
+                    
+                </div>
+                    
+                     <div class="col-md-4">
+                
+                    <div class="inspiration-header i-header-two">
+                    </div>
+                    
+                    <div class="inspiration-body">
+                     <h4>Alexandria's miracle</h4>
+
+In the wake of political turmoil and civil disruption in Egypt, it can be difficult to get our minds off the frequent grim and violent news.
+                        
+                        <a class="btn btn-inspiration">Watch Film</a>
+                    
+                    </div>
+                    
+                </div>
+                    
+                     <div class="col-md-4">
+                
+                    <div class="inspiration-header i-header-three">
+                    </div>
+                    
+                    <div class="inspiration-body">
+                    <h4>Alexandria's miracle</h4>
+
+In the wake of political turmoil and civil disruption in Egypt, it can be difficult to get our minds off the frequent grim and violent news.
+                        
+                        <a class="btn btn-inspiration">Watch Film</a>
+                    
+                    </div>
+                    
+                </div>
+                    
+                    
+                
+                </div>
+                
+                
+                <div id="discussions">
+                
+                    
+                    
+                      <div class="row" id="im-discussion" data-columns>
+          
+            <div class="chat-box column size-1of2">
+              
+                <img class="avatar" src="/img/douglas-profile.JPG">
+                
+            
+                
+                <h4>Douglas James Greenwood</h4>
+                
+                <p>Laura Marling debuted some of her new music during a gorgeous set at The Caves in Edinburgh. Read our review here: http://frowning.us/2015/02/06/review-laura-marling-at-the-caves-4th-feb-2015/ (Image courtesy of Rolling Stone)</p>
+                
+                <img class="post-img" src="/img/douglas-post.jpg">
+                    
+                
+                <div class="respond-box">
+                
+                
+                </div>
+              
+            </div>
+                  
+                     <div class="chat-box column size-1of2">
+              
+                <img class="avatar" src="/img/douglas-profile.JPG">
+                
+               
+                
+                <h4>Douglas James Greenwood</h4>
+                
+                <p>Laura Marling debuted some of her new music during a gorgeous set at The Caves in Edinburgh. Read our review here: http://frowning.us/2015/02/06/review-laura-marling-at-the-caves-4th-feb-2015/ (Image courtesy of Rolling Stone)</p>
+                
+               
+                    
+                
+                
+                <div class="respond-box">
+                
+                
+                </div>
+              
+            </div>
+                  
+                    <div class="chat-box column size-1of2">
+              
+                <img class="avatar" src="/img/douglas-profile.JPG">
+                
+                
+                
+                <h4>Douglas James Greenwood</h4>
+                
+                <p>Laura Marling debuted some of her new music during a gorgeous set at The Caves in Edinburgh. Read our review here: http://frowning.us/2015/02/06/review-laura-marling-at-the-caves-4th-feb-2015/ (Image courtesy of Rolling Stone)</p>
+                
+                <img class="post-img" src="/img/douglas-post.jpg">
+                    
+              
+                
+                <div class="respond-box">
+                
+                
+                </div>
+              
+            </div>
+   
+          </div>
+          
+          
+          </div> <!-- End discussions -->
+                
+                
+                <!-- Start Missions -->
+                
+                <div id="missions">
+                
+                    <div class="mission-header col-md-12">
+                  
+                  <a class="featured-mission">Featured Mission</a>
+                  
+                  <a class="featured-mission-more">Learn More about our Featured Missions</a>
+                  
+                <div class="mission-header-content">
+                  
+                <h2>The Big Issue Edinburgh</h2>
+                  
+                    <p>The Big Issue is a magazine sold by homeless and long-term unemployed people. Vendors buy copies for £1.25 and sell for £2.50. They are working, not begging.</p>
+                    
+                    
+  <a href="app.example-mission.html" class="btn btn-mission-main">Learn More</a>
+                    
+                  </div>
+                  
+                
+                  
+              </div>
+              
+              <div class="row" style="margin-left:-15px!important; margin-right:-15px!important">
+              
+              <div class="col-md-6">
+              
+                  <div class="sub-mission mission-one">
+                      
+                      <div class="sub-mission-content">
+                  
+                       <h2>Social Bite</h2>
+                          
+                          <p>Eat good. Do good.</p>
+                  
+                 <a class="btn btn-mission-main">Learn More</a>
+                          
+                      </div>
+                  
+                
+                  
+                  </div>
+              
+              </div>
+                  
+                  
+                   <div class="col-md-6">
+              
+                  <div class="sub-mission mission-one">
+                      
+                      <div class="sub-mission-content">
+                  
+                       <h2>Social Bite</h2>
+                          
+                          <p>Eat good. Do good.</p>
+                  
+                 <a class="btn btn-mission-main">Learn More</a>
+                          
+                      </div>
+                  
+                
+                  
+                  </div>
+              
+              </div>
+                
+                
+                </div>
+                
+                
+                </div>
+                </div>
+                
+            </div>
+                
+            </div>
+        
+        
+        
+        <div class="stories">
+        
+            <h3>100's of incredible stories from around the world</h3>
+            
+              <a class="get-started-btn btn" href="#">Get Started</a>
+        
+        </div>
+        
+        <footer>
+        <div class="col-md-4">
+            <h3 style="padding-left:30px;">© Ignited Minds 2015</h3>
+            <h4>Brought to you by <a href="#">Campfire</a></h4>
+          </div>
+            <div class="col-md-8">
+            <ul>
+            
+                <li><a href="about.html">About</a></li>
+                <li>Blog</li>
+                <li>Press</li>
+                <li>Login</li>
+                <li>Signup</li>
+                
+            </ul>
+        </div>
+        </footer>        
+        
+        
+         <script>$(".get-started-btn, .btn-signup").click(function (e) {
+    $('.header-content').toggleClass('up');
+    e.stopPropagation()
+});</script>
+        
+          <script>$('.btn-signup').click(function(e){    
+    $('#buttons').fadeOut('slow', function(){
+        $('#form-one').fadeIn('slow');
+    });
+});</script>
+        
+         <script>$('.btn-signup').click(function(e){    
+    $('.btn-signup').fadeOut('slow', function(){
+        $('#form-one').fadeIn('slow');
+    });
+});</script>
+        
+        
+        
+        <script>$('.get-started-btn').click(function(e){    
+    $('#buttons').fadeOut('slow', function(){
+        $('#form-one').fadeIn('slow');
+    });
+});</script>
+        
+         <script>$('.get-started-btn').click(function(e){    
+    $('.btn-signup').fadeOut('slow', function(){
+        $('#form-one').fadeIn('slow');
+    });
+});</script>
+        
+        
+        
+         <script>$('.btn-begin').click(function(e){    
+    $('#form-one').fadeOut('slow', function(){
+        $('#form-two').fadeIn('slow');
+    });
+});</script>
+        
+         <script>$('.btn-last-part').click(function(e){    
+    $('#form-two').fadeOut('slow', function(){
+        $('#form-three').fadeIn('slow');
+    });
+});</script>
+        
+        
+        
+        
+        <script>
+            $( "#inspiration-btn" ).click(function() {
+  $( "#inspiration" ).fadeToggle( "slow" );
+             
+});
+        </script>
+
+        <script>
+        
+            $( "#discussion-btn" ).click(function() {
+                $( "#discussions" ).fadeToggle( "slow" );
+});
+
+        </script>
+            
+            <script>
+        
+            $( "#missions-btn" ).click(function() {
+ 
+                 $( "#missions" ).fadeToggle( "slow" );
+});
+
+        </script>
+        
+       
+        
+      <!--   <script>$('.btn-igniteme').click(function(e){    
+    $('#form-three').fadeOut('slow', function(){
+        $('#welcome').fadeIn('slow');
+    });
+});</script> -->
+        
+        <script>     function readURL(input) {
+            if (input.files && input.files[0]) {
+                var reader = new FileReader();
+
+                reader.onload = function (e) {
+                    $('#blah')
+                        .attr('src', e.target.result)
+                        .width(80)
+                        .height(80);
+                        
+                };
+
+                reader.readAsDataURL(input.files[0]);
+            }
+        }</script>
+        
+ 
+         
+      
+        
+    </body>
+</html>
