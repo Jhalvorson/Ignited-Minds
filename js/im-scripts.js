@@ -140,3 +140,9 @@ $( "#missions-btn" ).click(function() {
 
 $('#funded').animateNumber({ number: 37000 },10000);
         
+
+
+// Alerts
+
+//Event Alert
+

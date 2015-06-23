@@ -1271,6 +1271,11 @@ position: absolute;
     padding-right: 4px;
 }
 
+.btn-interested:focus{
+     border:2px solid #fff;
+    color:#fff;
+}
+
 .single-event-header h2{
     padding-top: 110px;
     font-size: 23px;
@@ -1389,6 +1394,49 @@ position: absolute;
     border-radius: 50%;
     margin:8px;
     display: inline-block;
+}
+
+.attending-main_body a,
+.attending-main_body a:hover,
+.attending-main_body a:focus,
+.attending-main_body a:visited{
+    background-color: transparent;
+    padding: 0;
+    border:none;
+    box-shadow: none;
+}
+
+.attending-modal{
+    text-align: center;
+}
+
+.attending-modal img{
+    height:55px;
+    border-radius: 50%;
+    margin:8px;
+}
+
+.attending-modal_content{
+    padding-bottom: 40px;
+    border-radius: 4px;
+}
+
+.attending-modal p span{
+    font-weight: 600
+}
+
+.attending-modal p{
+    padding-bottom: 20px;
+}
+
+.modal-attending{
+    z-index: 10000000;
+}
+
+.attending-modal_header{
+    text-align: center;
+    border-bottom: none;
+    padding-top:30px;
 }
 
 .event-body{
@@ -2781,6 +2829,12 @@ Funding
   content: "";
 }
 
+.alert-interested{
+    z-index: 999999999999;
+    margin-top:-200px;
+    width:80%;
+    margin-left: 14%;
+}
 
 
 

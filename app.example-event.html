@@ -64,9 +64,9 @@
            
  <ul class="nav navbar-nav">
                      <li><a href="app.index.html"><img src=/img/logo.png></a></li>
-            <li class=""><a href="#"><i class="icon-person"></i> <span class="sr-only">(current)</span></a></li> <li><a href="app.inspiration.html" ><i class="icon-lightbulb"></i></a></li>
+            <li class=""><a href="app.people.html"><i class="icon-person"></i> <span class="sr-only">(current)</span></a></li> <li><a href="app.inspiration.html" ><i class="icon-lightbulb"></i></a></li>
             <li><a href="app.events.html" ><i class="icon-calendar"></i></a></li>
-            <li><a href="#" ><i class="icon-pound"></i></a></li>
+            <li><a href="app.funding.html" ><i class="icon-pound"></i></a></li>
               <li><a href="app.missions.html" ><i class="fa fa-rocket"></i></a></li>
             <li><a href="app.discussions.html" ><i class="fa fa-comment-o"></i></a></li>
          
@@ -93,7 +93,13 @@
                   
                 <span class="date-header"><h3>24</h3><h5>May</h5></span>  
                   
-             <a class="btn-interested"><i class="fa fa-plus"></i> I'm Insterested</a>
+             <a class="btn-interested" id="interested" href="#"><i class="fa fa-plus"></i> I'm Insterested</a>
+             
+             
+             <div class="alert alert-success alert-interested fade">
+      <button type="button" class="close" data-dismiss="alert">×</button>
+      <strong>Wooooh!</strong> Thanks for telling us that you're interested<p>You can get your ticktes below</p>
+    </div>
              
               </div>
         
@@ -102,10 +108,10 @@
         <div class="col-sm-2 col-md-1 sidebar">
           <ul class="nav nav-sidebar">
               <li><a href="app.index.html"><img src=/img/logo.png></a></li>
-            <li class=""><a href="#" data-toggle="tooltip" class="tip-right" data-original-title="People" class="nav-tooltip"><i class="icon-person"></i> <span class="sr-only">(current)</span></a></li>
+            <li class=""><a href="app.people.html" data-toggle="tooltip" class="tip-right" data-original-title="People" class="nav-tooltip"><i class="icon-person"></i> <span class="sr-only">(current)</span></a></li>
             <li><a href="app.events.html" data-toggle="tooltip" class="tip-right" data-original-title="Events"><i class="icon-calendar"></i></a></li>
                <li><a href="app.inspiration.html" data-toggle="tooltip" class="tip-right" data-original-title="Inspiration"><i class="icon-lightbulb"></i></a></li>
-            <li><a href="#" data-toggle="tooltip" class="tip-right" data-original-title="Funding"><i class="icon-pound"></i></a></li>
+            <li><a href="app.funding.html" data-toggle="tooltip" class="tip-right" data-original-title="Funding"><i class="icon-pound"></i></a></li>
               <li><a href="app.missions.html" data-toggle="tooltip" class="tip-right" data-original-title="Missions"><i class="fa fa-rocket"></i></a></li>
             <li><a href="app.discussions.html" data-toggle="tooltip" class="tip-right" data-original-title="Discussions"><i class="fa fa-comment-o"></i></a></li>
           
@@ -137,29 +143,28 @@
                     
                      <div class="attending-main_body">
                          
-                         <img src="/img/douglas-profile.JPG" class="img-attending">
+                         <a data-toggle="modal" href="#myModal" class="btn btn-primary btn-lg">  <img src="/img/douglas-profile.JPG" class="img-attending"> </a>
                          
-                          <img src="/img/douglas-profile.JPG" class="img-attending">
+                         <a data-toggle="modal" href="#myModal" class="btn btn-primary btn-lg"> <img src="/img/douglas-profile.JPG" class="img-attending"></a>
                          
-                          <img src="/img/douglas-profile.JPG" class="img-attending">
+                         <a data-toggle="modal" href="#myModal" class="btn btn-primary btn-lg"> <img src="/img/douglas-profile.JPG" class="img-attending"></a>
                          
-                          <img src="/img/douglas-profile.JPG" class="img-attending">
+                           <a data-toggle="modal" href="#myModal" class="btn btn-primary btn-lg">  <img src="/img/douglas-profile.JPG" class="img-attending"> </a>
                          
-                          <img src="/img/douglas-profile.JPG" class="img-attending">
+                         <a data-toggle="modal" href="#myModal" class="btn btn-primary btn-lg"> <img src="/img/douglas-profile.JPG" class="img-attending"></a>
                          
-                          <img src="/img/douglas-profile.JPG" class="img-attending">
+                         <a data-toggle="modal" href="#myModal" class="btn btn-primary btn-lg"> <img src="/img/douglas-profile.JPG" class="img-attending"></a>
+                           <a data-toggle="modal" href="#myModal" class="btn btn-primary btn-lg">  <img src="/img/douglas-profile.JPG" class="img-attending"> </a>
                          
-                          <img src="/img/douglas-profile.JPG" class="img-attending">
+                         <a data-toggle="modal" href="#myModal" class="btn btn-primary btn-lg"> <img src="/img/douglas-profile.JPG" class="img-attending"></a>
                          
-                          <img src="/img/douglas-profile.JPG" class="img-attending">
+                         <a data-toggle="modal" href="#myModal" class="btn btn-primary btn-lg"> <img src="/img/douglas-profile.JPG" class="img-attending"></a>
                          
-                          <img src="/img/douglas-profile.JPG" class="img-attending">
+                           <a data-toggle="modal" href="#myModal" class="btn btn-primary btn-lg">  <img src="/img/douglas-profile.JPG" class="img-attending"> </a>
                          
-                          <img src="/img/douglas-profile.JPG" class="img-attending">
+                         <a data-toggle="modal" href="#myModal" class="btn btn-primary btn-lg"> <img src="/img/douglas-profile.JPG" class="img-attending"></a>
                          
-                          <img src="/img/douglas-profile.JPG" class="img-attending">
-                         
-                          <img src="/img/douglas-profile.JPG" class="img-attending">
+                         <a data-toggle="modal" href="#myModal" class="btn btn-primary btn-lg"> <img src="/img/douglas-profile.JPG" class="img-attending"></a>
                 
                 </div>
                     
@@ -202,20 +207,43 @@
         
         
         
-       <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-  <div class="modal-dialog">
-    <div class="modal-content">
-      <div class="modal-header">
+       <div class="modal modal-attending fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-dialog ">
+    <div class="modal-content attending-modal_content">
+      <div class="modal-header attending-modal_header">
         <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-        <h4 class="modal-title" id="myModalLabel">Modal title</h4>
+        <h4 class="modal-title" id="myModalLabel">Who's Attending</h4>
       </div>
-      <div class="modal-body">
-        ...
+      <div class="modal-body attending-modal">
+          <p id="attendingIntro">There are 78 Ignited Minds that will be attending <span>Creating through Collaboration</span>.</p>
+       <img src="/img/douglas-profile.JPG" class="img-attending">
+          <img src="/img/douglas-profile.JPG" class="img-attending">
+          <img src="/img/douglas-profile.JPG" class="img-attending">
+          <img src="/img/douglas-profile.JPG" class="img-attending">
+          <img src="/img/douglas-profile.JPG" class="img-attending">
+          <img src="/img/douglas-profile.JPG" class="img-attending">
+          <img src="/img/douglas-profile.JPG" class="img-attending">
+          <img src="/img/douglas-profile.JPG" class="img-attending">
+          <img src="/img/douglas-profile.JPG" class="img-attending">
+          <img src="/img/douglas-profile.JPG" class="img-attending">
+          <img src="/img/douglas-profile.JPG" class="img-attending">
+          <img src="/img/douglas-profile.JPG" class="img-attending">
+          <img src="/img/douglas-profile.JPG" class="img-attending">
+          <img src="/img/douglas-profile.JPG" class="img-attending">
+          <img src="/img/douglas-profile.JPG" class="img-attending">
+          <img src="/img/douglas-profile.JPG" class="img-attending">
+          <img src="/img/douglas-profile.JPG" class="img-attending">
+          <img src="/img/douglas-profile.JPG" class="img-attending">
+          <img src="/img/douglas-profile.JPG" class="img-attending">
+          <img src="/img/douglas-profile.JPG" class="img-attending">
+          <img src="/img/douglas-profile.JPG" class="img-attending">
+          <img src="/img/douglas-profile.JPG" class="img-attending">
+          <img src="/img/douglas-profile.JPG" class="img-attending">
+          <img src="/img/douglas-profile.JPG" class="img-attending">
+          <img src="/img/douglas-profile.JPG" class="img-attending">
+          <img src="/img/douglas-profile.JPG" class="img-attending">
       </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-        <button type="button" class="btn btn-primary">Save changes</button>
-      </div>
+     
     </div>
   </div>
 </div>
@@ -241,8 +269,33 @@
         </footer>        
 
  
-        
+          <!-- Modal to display users going to event. A full list of user avatars would be added here -->
+       
+        <!-- Begin Modal-->
+  <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+          <h4 class="modal-title">Modal title</h4>
+        </div>
+        <div class="modal-body">
+          ...
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+          <button type="button" class="btn btn-primary">Save changes</button>
+        </div>
+      </div><!-- /.modal-content -->
+    </div><!-- /.modal-dialog -->
+  </div><!-- /.modal -->
 
+        
+       <script>$(".btn-interested").on("click", function() {
+    $(".alert").removeClass("in").show();
+	$(".alert").delay(3300).addClass("in").fadeOut(2000);
+});
+</script>
      
         
     </body>
