@@ -54,6 +54,29 @@
     </head>
     
     <body>
+       
+        
+        <!--- ONLY FOR BETA TESTING // DELETE WHEN IN PRODUCTION ---->
+        
+      <!-- Modal -->
+  <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true"> 
+      <button type="button" class="close" data-dismiss="modal" aria-hidden="true" style="padding-top:40px;padding-right:40px;">&times;</button>
+    <div class="modal-dialog"  style="padding-top:90px;">
+      <div class="modal-content">
+        
+        <div class="modal-body" style="text-align:center;padding:50px;">
+         <h4 style="font-weight:600;">Hello you beautiful human!</h4><br>
+            
+            <p> Thanks for checking out Ignited Minds. Please note that this is just a Front-End <strong>BETA test</strong>.<br><br>We'd love to hear what you think of the new front-end! Send all feedback to our developer via <a href="http://twitter.com/jamiehalvorson" target="_blank">Twitter</a></p><br>
+            
+            <button type="button" class="btn btn-default btn-primary" data-dismiss="modal">Got it Captain</button>
+        </div>
+       
+      </div><!-- /.modal-content -->
+    </div><!-- /.modal-dialog -->
+  </div><!-- /.modal -->
+
+        <!--- IF THIS IS THE PRODUCTION MODEL THEN DELETE THE ABOVE MODAL --->
         
           <!-- Fixed navbar -->
     <nav class="navbar navbar-default navbar-static-top">
@@ -607,6 +630,7 @@ In the wake of political turmoil and civil disruption in Egypt, it can be diffic
               <a class="get-started-btn btn" href="#">Get Started</a>
         
         </div>
+    
         
         <footer>
         <div class="col-md-4">
@@ -624,8 +648,9 @@ In the wake of political turmoil and civil disruption in Egypt, it can be diffic
                 
             </ul>
         </div>
-        </footer>        
+        </footer>   
         
+       
         
          <script>$(".get-started-btn, .btn-signup").click(function (e) {
     $('.header-content').toggleClass('up');
@@ -723,7 +748,13 @@ In the wake of political turmoil and civil disruption in Egypt, it can be diffic
             }
         }</script>
         
- 
+   <!--- ONLY FOR BETA TESTING // DELETE WHEN IN PRODUCTION ---->
+        
+        <script type="text/javascript">
+    $(window).load(function(){
+        $('#myModal').modal('show');
+    });
+</script>
          
       
         
