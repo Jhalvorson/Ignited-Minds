@@ -1419,6 +1419,7 @@ position: absolute;
 .attending-modal_content{
     padding-bottom: 40px;
     border-radius: 4px;
+    box-shadow: none;
 }
 
 .attending-modal p span{
@@ -1426,17 +1427,26 @@ position: absolute;
 }
 
 .attending-modal p{
-    padding-bottom: 20px;
+    padding: 20px;
 }
 
 .modal-attending{
     z-index: 10000000;
+    padding-top:8%;
 }
 
 .attending-modal_header{
     text-align: center;
     border-bottom: none;
-    padding-top:30px;
+    padding:30px;
+    background-image:linear-gradient(
+        rgba(0,0,0,.3),
+        rgba(0,0,0,.3)
+    ), url(/img/background-blur.jpg);
+    background-color: #3D6EC5;
+    background-size: cover;
+    border-radius: 4px 4px 0px 0px;
+    color:#fff;
 }
 
 .event-body{

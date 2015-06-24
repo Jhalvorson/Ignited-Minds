@@ -879,7 +879,7 @@ About
 }
 
 .team{
-    padding-left:30px;
+    padding-left:90px;
     text-align: center;
     text-align: left;
 }
@@ -947,7 +947,14 @@ About
     transition: .2s;
 }
 
-
+@media(max-width:998px){
+    .team{
+        padding-left: 10px;
+        text-align: left;
+    }
+    
+   
+}
 
 /*-------------------
 Navbar Dark
