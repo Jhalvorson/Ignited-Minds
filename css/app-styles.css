@@ -2281,6 +2281,64 @@ Inspiration
     }
 }
 
+.inspiration{
+    position: relative;
+}
+
+.inspiration-header{
+    height: 150px;
+    border-radius: 5px 5px 0px 0px;
+}
+
+.i-header-one{
+    background-image: url(/img/i-one.jpg);
+    background-size: cover;
+}
+
+.i-header-two{
+    background-image: url(/img/im.jpg);
+    background-size: cover;
+}
+
+.i-header-three{
+    background-image: url(/img/ten.jpg);
+    background-size: cover;
+}
+
+.inspiration-body{
+    background-color: #fff;
+    padding:20px;
+    border-radius: 0px 0px 5px 5px;
+    margin-bottom: 30px;
+}
+
+.btn-inspiration{
+    display: block;
+    margin-top:15px;
+    background-color: #3ca1e2;
+    padding:10px;
+    color:#fff;
+    width:130px;
+    transition: .2s;
+}
+
+.btn-inspiration:hover{
+    background-color: #3591C9 ;
+    color:#fff;
+}
+
+.inspiration-overlay{
+    height:420px;
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+    background: linear-gradient(
+        rgba(237,239,240, .3),
+        rgba(237, 239, 240, 1)
+    );
+    z-index: 1000;
+}
+
 .ribbon {
   color: #fff;
   left: 3px;
@@ -2335,7 +2393,6 @@ Inspiration
 }
 
 .inspiration-filter{
-    position: a;
     top:0px;
     margin-right:15px;
     padding-bottom: 80px;
@@ -2358,7 +2415,7 @@ Inspiration
   margin: 0;
   padding: 10px 15px;
   text-align: center;
-    display: inline-block
+    display: inline-block;
 }
 
 .inspiration-filter ul li{
@@ -2383,7 +2440,7 @@ Inspiration
     font-size: 16px;
 }
 
-.inspiration-filterli {
+.inspiration-filter li {
   padding-right: 10px;
 }
 
