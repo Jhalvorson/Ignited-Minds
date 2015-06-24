@@ -335,7 +335,7 @@ opacity: 1!important;
 #form-one{
     position: absolute;
     width: 100%;
-    padding:40px 30%;
+    padding:40px 23%;
     display: none;
 }
 
@@ -415,19 +415,60 @@ opacity: 1!important;
     display: none;
 }
 
-.gender{
-    display: inline;
-}
-
-.gender img{
-  height:60px;
-display: inline-block;
-}
 
 .gender h3{
     display: inline-block;
     font-weight: 500;
     font-style: normal;
+    margin-top:20px;
+    position: absolute
+}
+
+
+
+/* Radios */
+
+
+input[type=radio   ]:not(old){
+  width   : 0px;
+  margin  : 0;
+  padding : 0;
+  opacity : 0;
+}
+
+input[type=radio   ]:not(old):first-child + label{
+    display: inline-block;
+    height: 50px;
+    width:50px;
+    background: url(/img/woman.png) no-repeat 0 0;
+    padding:0px;
+    background-size: contain;
+}
+
+input[type=radio   ]:not(old) + label{
+    display: inline-block;
+    height: 50px;
+    width:50px;
+    background: url(/img/man.png) no-repeat 0 0;
+    padding:0px;
+    background-size: contain;
+}
+
+
+input[type=radio]:not(old):first-child:checked + label{
+   background: url(/img/woman-check.png) no-repeat 0 0;
+    background-size: contain;
+}
+
+
+
+input[type=radio]:not(old):checked + label{
+   background: url(/img/man-check.png) no-repeat 0 0;
+    background-size: contain;
+}
+
+input[type=radio   ]:not(old):hover{
+    cursor: pointer;
 }
 
 .dob{
