@@ -368,51 +368,17 @@
         </footer>        
         
         
-         <script>$(".get-started-btn, .btn-signup").click(function (e) {
-    $('.header-content').toggleClass('up');
+         <script>$(".btn-hire").click(function (e) {
+    $('.hire-me-overlay').toggleClass('visible');
     e.stopPropagation()
-});</script>
-        
-          <script>$('.btn-signup').click(function(e){    
-    $('#buttons').fadeOut('slow', function(){
-        $('#form-one').fadeIn('slow');
-    });
-});</script>
-        
-         <script>$('.btn-signup').click(function(e){    
-    $('.btn-signup').fadeOut('slow', function(){
-        $('#form-one').fadeIn('slow');
-    });
-});</script>
-        
-        
-        
-        <script>$('.get-started-btn').click(function(e){    
-    $('#buttons').fadeOut('slow', function(){
-        $('#form-one').fadeIn('slow');
-    });
-});</script>
-        
-         <script>$('.get-started-btn').click(function(e){    
-    $('.btn-signup').fadeOut('slow', function(){
-        $('#form-one').fadeIn('slow');
-    });
-});</script>
-        
-        
-        
-         <script>$('.btn-begin').click(function(e){    
-    $('#form-one').fadeOut('slow', function(){
-        $('#form-two').fadeIn('slow');
-    });
-});</script>
-        
-         <script>$('.btn-last-part').click(function(e){    
-    $('#form-two').fadeOut('slow', function(){
-        $('#form-three').fadeIn('slow');
-    });
-});</script>
-        
+});  
+
+$(document).ready(function () {
+			  $(".btn-hire").on("click", function () {
+				    $(this).toggleClass("active");
+			  });
+              });
+</script>
 
         
   
