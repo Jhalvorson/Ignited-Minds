@@ -1314,6 +1314,10 @@ position: absolute;
     padding:40px 21%;
 }
 
+.post_content img{
+    width:100%;
+}
+
 @media(max-width:768px){
     .post_content{
     padding:40px 10%;
