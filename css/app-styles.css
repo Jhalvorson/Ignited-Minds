@@ -481,7 +481,7 @@ Profile
     background:linear-gradient(
         rgba(0,0,0,.4),
         rgba(0,0,0,.8)
-    ), url(/img/background.jpg);
+    ), url('../img/background.jpg');
     background-size: cover;
     background-position: center;
     text-align: center;
@@ -837,7 +837,7 @@ position: absolute;
     background:linear-gradient(
         rgba(0,0,0,.1),
         rgba(0,0,0,.1)
-    ), url(/img/big-issue.jpg);
+    ), url('../img/big-issue.jpg');
     background-size: cover;
     background-position: center;
     border-radius: 4px 4px 0px 0px;;
@@ -902,7 +902,7 @@ Events
     background:linear-gradient(
         rgba(0,0,0,.4),
         rgba(0,0,0,.8)
-    ), url(/img/background.jpg);
+    ), url('../img/background.jpg');
     background-size: cover;
     background-position: center;
     text-align: center;
@@ -973,7 +973,7 @@ Events
     background:linear-gradient(
         rgba(0,0,0,.4),
         rgba(0,0,0,.8)
-    ), url(/img/background.jpg);
+    ), url('../img/background.jpg');
     background-size: cover;
     background-position: center;
     text-align: left;
@@ -1026,7 +1026,7 @@ position: absolute;
      background:linear-gradient(
         rgba(0,0,0,.1),
         rgba(0,0,0,.6)
-    ), url(/img/event-one.jpg);
+    ), url('../img/event-one.jpg');
     background-size: cover;
 }
 
@@ -1034,7 +1034,7 @@ position: absolute;
      background:linear-gradient(
         rgba(0,0,0,.1),
         rgba(0,0,0,.6)
-    ), url(/img/934.jpeg);
+    ), url('../img/934.jpeg');
     background-size: cover;
     background-position: center;
 }
@@ -1043,7 +1043,7 @@ position: absolute;
      background:linear-gradient(
         rgba(0,0,0,.1),
         rgba(0,0,0,.6)
-    ), url(/img/916.jpeg);
+    ), url('../img/916.jpeg');
     background-size: cover;
     background-position: center;
 }
@@ -1052,7 +1052,7 @@ position: absolute;
      background:linear-gradient(
         rgba(0,0,0,.1),
         rgba(0,0,0,.6)
-    ), url(/img/885.jpeg);
+    ), url('../img/885.jpeg');
     background-size: cover;
     background-position: center;
 }
@@ -1061,7 +1061,7 @@ position: absolute;
      background:linear-gradient(
         rgba(0,0,0,.1),
         rgba(0,0,0,.6)
-    ), url(/img/852.jpeg);
+    ), url('../img/852.jpeg');
     background-size: cover;
     background-position: center;
 }
@@ -1070,7 +1070,7 @@ position: absolute;
      background:linear-gradient(
         rgba(0,0,0,.1),
         rgba(0,0,0,.6)
-    ), url(/img/car.jpg);
+    ), url('../img/car.jpg');
     background-size: cover;
     background-position: center;
 }
@@ -1079,7 +1079,7 @@ position: absolute;
      background:linear-gradient(
         rgba(0,0,0,.1),
         rgba(0,0,0,.6)
-    ), url(/img/business.jpg);
+    ), url('../img/business.jpg');
     background-size: cover;
     background-position: center;
 }
@@ -1088,7 +1088,7 @@ position: absolute;
      background:linear-gradient(
         rgba(0,0,0,.1),
         rgba(0,0,0,.6)
-    ), url(/img/pug.jpg);
+    ), url('../img/pug.jpg');
     background-size: cover;
     background-position: center;
 }
@@ -1141,7 +1141,7 @@ position: absolute;
     background:linear-gradient(
         rgba(0,0,0,.4),
         rgba(0,0,0,.8)
-    ), url(/img/background-blur.jpg);
+    ), url('../img/background-blur.jpg');
     background-size: cover;
     background-position: center;
     text-align: center;
@@ -1446,7 +1446,7 @@ position: absolute;
     background-image:linear-gradient(
         rgba(0,0,0,.3),
         rgba(0,0,0,.3)
-    ), url(/img/background-blur.jpg);
+    ), url('../img/background-blur.jpg');
     background-color: #3D6EC5;
     background-size: cover;
     border-radius: 4px 4px 0px 0px;
@@ -1549,7 +1549,7 @@ Missions
     background:linear-gradient(
         rgba(0,0,0,.4),
         rgba(0,0,0,.8)
-    ), url(/img/big-issue.jpg);
+    ), url('../img/big-issue.jpg');
     background-size: cover;
     background-position: center;
     text-align: center;
@@ -1690,7 +1690,7 @@ Missions
     background:linear-gradient(
         rgba(0,0,0,.3),
         rgba(0,0,0,.3)
-    ), url(/img/background-blur.jpg);
+    ), url('../img/background-blur.jpg');
     background-position: center;
     background-size: cover;
     border-radius: 4px 4px 0px 0px!important;
@@ -1794,7 +1794,7 @@ Missions
     background:linear-gradient(
         rgba(0,0,0,.4),
         rgba(0,0,0,.8)
-    ), url(/img/background.jpg);
+    ), url('../img/background.jpg');
     background-size: cover;
     background-position: center;
     text-align: left;
@@ -1874,25 +1874,25 @@ text-align: center;
 }
 
 .p-mission-single.one{
-    background-image:linear-gradient(rgba(0,0,0,.4),rgba(0,0,0,.4)),url(/img/852.jpeg);
+    background-image:linear-gradient(rgba(0,0,0,.4),rgba(0,0,0,.4)),url('../img/852.jpeg');
     background-size: cover;
     border-radius: 4px;
 }
 
 .p-mission-single.two{
-    background-image:linear-gradient(rgba(0,0,0,.4),rgba(0,0,0,.4)),url(/img/business.jpg);
+    background-image:linear-gradient(rgba(0,0,0,.4),rgba(0,0,0,.4)),url('../img/business.jpg');
     background-size: cover;
     border-radius: 4px;
 }
 
 .p-mission-single.three{
-    background-image:linear-gradient(rgba(0,0,0,.4),rgba(0,0,0,.4)),url(/img/885.jpeg);
+    background-image:linear-gradient(rgba(0,0,0,.4),rgba(0,0,0,.4)),url('../img/885.jpeg');
     background-size: cover;
     border-radius: 4px;
 }
 
 .p-mission-single.four{
-    background-image:linear-gradient(rgba(0,0,0,.4),rgba(0,0,0,.4)),url(/img/pug.jpg);
+    background-image:linear-gradient(rgba(0,0,0,.4),rgba(0,0,0,.4)),url('../img/pug.jpg');
     background-size: cover;
     border-radius: 4px;
 }
@@ -1940,7 +1940,7 @@ text-align: center;
      background:linear-gradient(
         rgba(0,0,0,.1),
         rgba(0,0,0,.6)
-    ), url(/img/event-one.jpg);
+    ), url('../img/event-one.jpg');
     background-size: cover;
 }
 
@@ -1969,7 +1969,7 @@ text-align: center;
     background:linear-gradient(
         rgba(0,0,0,.4),
         rgba(0,0,0,.8)
-    ), url(/img/background-blur.jpg);
+    ), url('../img/background-blur.jpg');
     background-size: cover;
     background-position: center;
     text-align: center;
@@ -2292,17 +2292,17 @@ Inspiration
 }
 
 .i-header-one{
-    background-image: url(/img/i-one.jpg);
+    background-image: url('../img/i-one.jpg');
     background-size: cover;
 }
 
 .i-header-two{
-    background-image: url(/img/im.jpg);
+    background-image: url('../img/im.jpg');
     background-size: cover;
 }
 
 .i-header-three{
-    background-image: url(/img/ten.jpg);
+    background-image: url('../img/ten.jpg');
     background-size: cover;
 }
 
@@ -2483,7 +2483,7 @@ Inspiration
 .inspiration-single-header{
     min-height: 300px;
     border-radius: 4px 4px 0px 0px;
-    background-image: url(/img/852.jpeg);
+    background-image: url('../img/852.jpeg');
     background-size: cover;
     background-position: center;
 }
@@ -2665,7 +2665,7 @@ People
 .user{
     padding: 20px;
     border-radius: 4px;
-    background-image:linear-gradient(rgba(0,0,0,.3), rgba(0,0,0,.3)),url(/img/background.jpg);
+    background-image:linear-gradient(rgba(0,0,0,.3), rgba(0,0,0,.3)),url('../img/background.jpg');
     color:#fff;
     position: relative;
     width:100%;
