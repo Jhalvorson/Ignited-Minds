@@ -429,14 +429,14 @@ opacity: 1!important;
 /* Radios */
 
 
-input[type=radio   ]:not(old){
+.gender input[type=radio   ]:not(old){
   width   : 0px;
   margin  : 0;
   padding : 0;
   opacity : 0;
 }
 
-input[type=radio   ]:not(old):first-child + label{
+.gender input[type=radio   ]:not(old):first-child + label{
     display: inline-block;
     height: 50px;
     width:50px;
@@ -445,7 +445,7 @@ input[type=radio   ]:not(old):first-child + label{
     background-size: contain;
 }
 
-input[type=radio   ]:not(old) + label{
+.gender input[type=radio   ]:not(old) + label{
     display: inline-block;
     height: 50px;
     width:50px;
@@ -455,19 +455,19 @@ input[type=radio   ]:not(old) + label{
 }
 
 
-input[type=radio]:not(old):first-child:checked + label{
+.gender input[type=radio]:not(old):first-child:checked + label{
    background: url(/img/woman-check.png) no-repeat 0 0;
     background-size: contain;
 }
 
 
 
-input[type=radio]:not(old):checked + label{
+.gender input[type=radio]:not(old):checked + label{
    background: url(/img/man-check.png) no-repeat 0 0;
     background-size: contain;
 }
 
-input[type=radio   ]:not(old):hover{
+.gender input[type=radio   ]:not(old):hover{
     cursor: pointer;
 }
 
@@ -1776,9 +1776,63 @@ Sponsorship
 }
 
 
+/*---------------
+Mobile Signup
+---------------*/
+
+.btn-file-mobile {
+    position: relative;
+    overflow: hidden;
+    display: block;
+    margin-left: auto;
+    width:140px;
+    margin-right: auto;
+    background: transparent;
+    border:none;
+    color:#2083fe ;
+    padding: 10px;
+    margin-top:12px;
+    font-size: 11px;
+    margin-bottom: 2px;
+    border: 2px solid #2083fe 
+}
+
+.btn-file-mobile:hover{
+    background:#2083fe ;
+    text-decoration: underline;
+    color:#fff ;
+    border:2px solid #2083fe ;
+    text-decoration: none;
+}
+.btn-file-mobile input[type=file] {
+    position: absolute;
+    top: 0;
+    left: 0;
+    font-size: 100px;
+    text-align: right;
+    filter: alpha(opacity=0);
+    opacity: 0;
+    outline: none;
+    background: white;
+    cursor: inherit;
+    display: block;
+    
+}
+
+.city h3{
+    font-size: 13px;
+    font-weight: 600;
+}
+
+.city .form-control{
+    margin:15px 0px;
+    width:90%;
+}
 
 
-
+.mobile-img #blah{
+    border:2px solid #2083fe ;
+}
 
 
 
