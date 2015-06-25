@@ -440,7 +440,7 @@ opacity: 1!important;
     display: inline-block;
     height: 50px;
     width:50px;
-    background: url(/img/woman.png) no-repeat 0 0;
+    background: url('../img/woman.png') no-repeat 0 0;
     padding:0px;
     background-size: contain;
 }
@@ -449,21 +449,21 @@ opacity: 1!important;
     display: inline-block;
     height: 50px;
     width:50px;
-    background: url(/img/man.png) no-repeat 0 0;
+    background: url('../img/man.png') no-repeat 0 0;
     padding:0px;
     background-size: contain;
 }
 
 
 .gender input[type=radio]:not(old):first-child:checked + label{
-   background: url(/img/woman-check.png) no-repeat 0 0;
+   background: url('../img/woman-check.png') no-repeat 0 0;
     background-size: contain;
 }
 
 
 
 .gender input[type=radio]:not(old):checked + label{
-   background: url(/img/man-check.png) no-repeat 0 0;
+   background: url('../img/man-check.png') no-repeat 0 0;
     background-size: contain;
 }
 
@@ -564,7 +564,7 @@ opacity: 1!important;
       border-radius:50%;
     width:80px;
     height:80px;
-    background-image: url(/img/man.png);
+    background-image: url('../img/man.png');
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
@@ -710,17 +710,17 @@ padding-top: 80px;
 }
 
 .i-header-one{
-    background-image: url(/img/i-one.jpg);
+    background-image: url('../img/i-one.jpg');
     background-size: cover;
 }
 
 .i-header-two{
-    background-image: url(/img/im.jpg);
+    background-image: url('../img/im.jpg');
     background-size: cover;
 }
 
 .i-header-three{
-    background-image: url(/img/ten.jpg);
+    background-image: url('../img/ten.jpg');
     background-size: cover;
 }
 
@@ -780,7 +780,7 @@ padding-top: 80px;
     background: linear-gradient(
         rgba(0,0,0, .7),
         rgba(0, 0, 0, .7)
-    ), url(/img/stories.jpg);
+    ), url('../img/stories.jpg');
     background-size: cover;
     color:#fff;
 }
@@ -890,7 +890,7 @@ About
      background:linear-gradient(
         rgba(0,0,0,.5),
         rgba(0,0,0,.8)
-     ),url(/img/background.jpg);
+     ),url('../img/background.jpg');
     background-size: cover;
     position: relative;
 }
@@ -1049,26 +1049,26 @@ Blog
 }
 
 .post-one{
-    background-image: url(/img/dj.jpg);
+    background-image: url('../img/dj.jpg');
     background-size: cover;
     background-position: center;
 }
 
 .post-two{
-    background-image: url(/img/dundee-waterfront.jpg);
+    background-image: url('../img/dundee-waterfront.jpg');
     background-size: cover;
     background-position: center;
 }
 
 
 .post-three{
-    background-image: url(/img/melrose.jpg);
+    background-image: url('../img/melrose.jpg');
     background-size: cover;
     background-position: center;
 }
 
 .post-four{
-    background-image: url(/img/people.JPG);
+    background-image: url('../img/people.JPG');
     background-size: cover;
     background-position: bottom;
 }
@@ -1183,7 +1183,7 @@ Careers
      background:linear-gradient(
         rgba(0,0,0,.3),
         rgba(0,0,0,.6)
-     ),url(/img/team.jpg);
+     ),url('../img/team.jpg');
     background-size: cover;
     position: relative;
 }
@@ -1288,7 +1288,7 @@ Blog Post Styles
     background-image: linear-gradient(
         rgba(0,0,0,.4),
         rgba(0,0,0,.4)
-    ), url(/img/people.jpg);
+    ), url('../img/people.jpg');
     background-size: cover;
     background-position: center;
     color:#fff;
@@ -1458,21 +1458,21 @@ small{
 
 .single-other-post-header{
     height:170px;
-    background-image: url(/img/melrose.jpg);
+    background-image: url('../img/melrose.jpg');
     background-size: cover;
     border-radius: 4px;
 }
 
 .single-other-post-header.two{
     height:170px;
-    background-image: url(/img/dundee-waterfront.jpg);
+    background-image: url('../img/dundee-waterfront.jpg');
     background-size: cover;
     border-radius: 4px;
 }
 
 .single-other-post-header.three{
     height:170px;
-    background-image: url(/img/header.jpg);
+    background-image: url('../img/header.jpg');
     background-size: cover;
     border-radius: 4px;
 }
@@ -1546,7 +1546,7 @@ min-height: 400px;
     background:linear-gradient(
         rgba(66,66,66,.9),
         rgba(66,66,66,.93)
-    ),url(/img/background-blur.jpg);
+    ),url('../img/background-blur.jpg');
     background-size: cover;
     border-radius: 4px 4px 0px 0px
 }
@@ -1654,7 +1654,7 @@ Sponsorship
      background:linear-gradient(
         rgba(0,0,0,.3),
         rgba(0,0,0,.6)
-     ),url(/img/girl2.jpg);
+     ),url('../img/girl2.jpg');
     background-size: cover;
     position: relative;
 }
@@ -1730,7 +1730,7 @@ Sponsorship
     background:linear-gradient(
         rgba(0,0,0,.5),
         rgba(0,0,0,.5)
-    ), url(/img/934.jpeg);
+    ), url('../img/934.jpeg');
     background-size: cover;
     background-position: center;
 }
