@@ -147,7 +147,7 @@ font-style:normal
 .header-home{
     height:630px;
     background:
-        url(../img/header.jpg);
+        url('../img/header.jpg');
     background-size: cover;
     position: relative;
     margin-top: -130px;
